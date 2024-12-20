@@ -1,0 +1,9 @@
+/* Correct usage of calc() function */
+#element {
+  width: calc(100% - 20px);
+}
+
+/* Incorrect usage with spaces - may lead to errors */
+/* #element {
+  width: calc( 100% - 20px );
+} */
